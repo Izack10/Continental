@@ -71,8 +71,8 @@ PUBLIC_FCT T_UBYTE Digital_Read(void);
 	
 /* Exported defines */
 
-#define PARK 			  (16)
-#define HEAD              (32)
+#define PUSH 			  (16)
+#define SELECT            (32)
 
 
 #endif
