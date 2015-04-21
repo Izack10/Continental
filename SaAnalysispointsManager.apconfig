@@ -1,6 +1,6 @@
 <Analysispoints>
 	<Name>AnalysispointsManager</Name>
-	<ProjectPath>C:/Users/Jorge/Desktop/Jor Workspaces/trunk/source/AutoLampsSCH/SaAnalysispointsManager.apconfig</ProjectPath>
+	<ProjectPath>C:/Users/issac/Workspace Continental/Modulo 3/StateMachine/Continental/SaAnalysispointsManager.apconfig</ProjectPath>
 	<MaxNumberOfCores>1</MaxNumberOfCores>
 	<Comments>Analysispoints Manager</Comments>
 	<IgnoreAll>false</IgnoreAll>
