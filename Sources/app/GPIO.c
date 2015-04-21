@@ -76,18 +76,23 @@ PUBLIC_FCT void GPIO_Init(void)
 					SIM_SCGC5_PORTD_MASK | 		//Port D Clock Gate Control; Clock Enable
 					SIM_SCGC5_PORTE_MASK	);	//Port E Clock Gate Control; Clock Enable
 	
-	PORTC_PCR4 |= PORT_PCR_MUX(1);				//PIN configured as GPIO 
-	PORTC_PCR5 |= PORT_PCR_MUX(1);				//PIN configured as GPIO 
-	PORTA_PCR16 = PORT_PCR_MUX(1);				//PIN configured as GPIO 
-	PORTA_PCR17 = PORT_PCR_MUX(1);				//PIN configured as GPIO
+
+	PORTC_PCR4 |= PORT_PCR_MUX(1);				//PIN C4 configured as GPIO
+	PORTC_PCR5 |= PORT_PCR_MUX(1);				//PIN C5 configured as GPIO
 	
-	GPIOA_PDDR = 0x30000;
+
+	PORTA_PCR1 = PORT_PCR_MUX(1);				//PIN A1 configured as GPIO
+	PORTA_PCR2 = PORT_PCR_MUX(1);				//PIN A2 configured as GPIO
+	PORTA_PCR4 = PORT_PCR_MUX(1);				//PIN A4 configured as GPIO
+	PORTA_PCR5 = PORT_PCR_MUX(1);				//PIN A5 configured as GPIO
+	
+	GPIOA_PDDR = 0x54;
 }
 
 
 PUBLIC_FCT void Input_Configuration(void)
 {
-	FGPIOC_PDDR &= ~(PARK | HEAD);	//Configures PORTC 3, 4 and 5 as Input
+	FGPIOC_PDDR &= ~(PUSH | SELECT);	//Configures PORTC 3 and 4 as Input
 }
 
 

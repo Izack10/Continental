@@ -31,7 +31,7 @@
 /*============================================================================*/
 //#include "MyApplication.h"
 //#include "MyLowLayerDriver.h"
-#include "..\..\app\ADC.h"
+
 #include "..\..\app\GPIO.h"
 #include "..\..\app\Lamp_Control.h"
 #include "..\..\app\Read_Selector.h"
