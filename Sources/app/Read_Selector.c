@@ -22,10 +22,19 @@
 /*============================================================================*/
 
 #include "Read_Selector.h"
-
+enum {
+	STATE_ONE,
+	STATE_TWO,
+	STATE_THREE,
+	STATE_FOUR,
+	STATE_FIVE,
+	STATE_SIX,
+	STATE_SEVEN,
+	STATE_EIGHT
+};
 T_UWORD ruw_LightIntensity = 0;
 T_UWORD ruw_LightPorcent = 0;
-T_UWORD ruw_SelectorState = 0;
+T_UWORD ruw_SelectorState = STATE_ONE;
 T_UWORD ruw_previusState = 0;
 
 
@@ -35,38 +44,36 @@ PUBLIC_FCT void ReadPort_Selector(void)
 	ruw_SelectorState |= Digital_Read();		//Reads Selector's position
 }
 
-PUBLIC_FCT void Read_ADC(void)
-{
-	 ruw_LightIntensity &= 0;
-	 ruw_LightIntensity |= ADC_Read(4);
-	 ruw_LightPorcent = Data_Conversion(ruw_LightIntensity,10000,65535,0,100);
-}
-
 PUBLIC_FCT void SelectorFunction(void)
 {
 	switch(ruw_SelectorState)					
 	 	 {
-	 	 	case OFF:
-	 	 		Light_Off();
-	 	 		ruw_previusState = 0;
+	 	 	case STATE_ONE:
+	 	 		ruw_SelectorState=STATE_TWO;
 	 	 		break;
-	 		case AUTOMATIC:
-	 			ruw_previusState = Change_State(ruw_LightPorcent,ruw_previusState);
-	 				
-	 			break;
-	 		case PARKLAMP:
-	 			Light_Off();
-	 			Parklamp_On();
-	 			ruw_previusState = 0;
-	 			break;
-	 		case HEADLAMP:
-	 			Light_Off();	
-	 			Light_On();
-	 			ruw_previusState = 0;
-	 			break;
-	 		
+	 	 	case STATE_TWO:
+	 	 		ruw_SelectorState=STATE_THREE;
+	 	 		break;
+	 	 	case STATE_THREE:
+	 	 		ruw_SelectorState=STATE_FOUR;
+	 	 		break;
+	 	 	case STATE_FOUR:
+	 	 		ruw_SelectorState=STATE_FIVE;
+	 	 		break;
+	 	 	case STATE_FIVE:
+	 	 		ruw_SelectorState=STATE_SIX;
+	 	 		break;
+	 	 	case STATE_SIX:
+	 	 		ruw_SelectorState=STATE_SEVEN;
+	 	 		break;
+	 	 	case STATE_SEVEN:
+	 	 		ruw_SelectorState=STATE_EIGHT;
+	 	 		break;
+	 	 	case STATE_EIGHT:
+	 	 		ruw_SelectorState=STATE_ONE;
+	 	 		break;	 		
 	 		default:
-	 			Light_Off();
+	 			//THIS STATE SHOUL NEVER HAPPEN
 	 			break;
 	 	 }
 }
