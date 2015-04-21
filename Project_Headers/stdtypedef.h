@@ -59,7 +59,11 @@ typedef T_SLONG * PTR_SLONG;
 typedef T_UBYTE T_BOOLEAN;
 
 /* Carrier of 8 bits */
-typedef struct {
+typedef union {
+	struct
+	{
+		T_UBYTE lub_input;
+	}byte;
 	unsigned int	bit7:1;
 	unsigned int	bit6:1;
 	unsigned int	bit5:1;

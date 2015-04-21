@@ -3,8 +3,8 @@ Sources/mcl/CrystalClock.o: ../Sources/mcl/CrystalClock.c \
  C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/common.prefix \
  C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_c_version.h \
  ../Sources/mcl/CrystalClock.h \
- C:/Users/Jorge/Desktop/Jor\ Workspaces/trunk/source/AutoLampsSCH/Project_Headers/derivative.h \
- C:/Users/Jorge/Desktop/Jor\ Workspaces/trunk/source/AutoLampsSCH/Project_Headers/MKL25Z4.h \
+ C:/Users/issac/Workspace\ Continental/Modulo\ 3/StateMachine/Continental/Project_Headers/derivative.h \
+ C:/Users/issac/Workspace\ Continental/Modulo\ 3/StateMachine/Continental/Project_Headers/MKL25Z4.h \
  C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/stdint.h \
  C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/ansi_parms.h \
  C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewlGlobals.h \
@@ -22,9 +22,9 @@ C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_c_version.
 
 ../Sources/mcl/CrystalClock.h:
 
-C:/Users/Jorge/Desktop/Jor\ Workspaces/trunk/source/AutoLampsSCH/Project_Headers/derivative.h:
+C:/Users/issac/Workspace\ Continental/Modulo\ 3/StateMachine/Continental/Project_Headers/derivative.h:
 
-C:/Users/Jorge/Desktop/Jor\ Workspaces/trunk/source/AutoLampsSCH/Project_Headers/MKL25Z4.h:
+C:/Users/issac/Workspace\ Continental/Modulo\ 3/StateMachine/Continental/Project_Headers/MKL25Z4.h:
 
 C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/stdint.h:
 

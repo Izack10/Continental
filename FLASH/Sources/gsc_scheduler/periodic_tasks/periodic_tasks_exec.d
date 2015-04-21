@@ -4,9 +4,9 @@ Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o: \
  C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/common.prefix \
  C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_c_version.h \
  ../Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.h \
- C:/Users/Jorge/Desktop/Jor\ Workspaces/trunk/source/AutoLampsSCH/Project_Headers/stdtypedef.h \
- C:/Users/Jorge/Desktop/Jor\ Workspaces/trunk/source/AutoLampsSCH/Project_Headers/derivative.h \
- C:/Users/Jorge/Desktop/Jor\ Workspaces/trunk/source/AutoLampsSCH/Project_Headers/MKL25Z4.h \
+ C:/Users/issac/Workspace\ Continental/Modulo\ 3/StateMachine/Continental/Project_Headers/stdtypedef.h \
+ C:/Users/issac/Workspace\ Continental/Modulo\ 3/StateMachine/Continental/Project_Headers/derivative.h \
+ C:/Users/issac/Workspace\ Continental/Modulo\ 3/StateMachine/Continental/Project_Headers/MKL25Z4.h \
  C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/stdint.h \
  C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/ansi_parms.h \
  C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewlGlobals.h \
@@ -16,11 +16,9 @@ Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.o: \
  C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/limits_api.h \
  C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_lib_ext1.h \
  ../Sources/gsc_scheduler/periodic_tasks/periodic_tasks_modules.h \
- ../Sources/gsc_scheduler/periodic_tasks/..\..\app\ADC.h \
  ../Sources/gsc_scheduler/periodic_tasks/..\..\app\GPIO.h \
  ../Sources/gsc_scheduler/periodic_tasks/..\..\app\Lamp_Control.h \
  ../Sources/gsc_scheduler/periodic_tasks/..\..\app\GPIO.h \
- ../Sources/gsc_scheduler/periodic_tasks/..\..\app\ADC.h \
  ../Sources/gsc_scheduler/periodic_tasks/..\..\app\Read_Selector.h \
  ../Sources/gsc_scheduler/periodic_tasks/..\..\app\Lamp_Control.h
 
@@ -32,11 +30,11 @@ C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_c_version.
 
 ../Sources/gsc_scheduler/periodic_tasks/periodic_tasks_exec.h:
 
-C:/Users/Jorge/Desktop/Jor\ Workspaces/trunk/source/AutoLampsSCH/Project_Headers/stdtypedef.h:
+C:/Users/issac/Workspace\ Continental/Modulo\ 3/StateMachine/Continental/Project_Headers/stdtypedef.h:
 
-C:/Users/Jorge/Desktop/Jor\ Workspaces/trunk/source/AutoLampsSCH/Project_Headers/derivative.h:
+C:/Users/issac/Workspace\ Continental/Modulo\ 3/StateMachine/Continental/Project_Headers/derivative.h:
 
-C:/Users/Jorge/Desktop/Jor\ Workspaces/trunk/source/AutoLampsSCH/Project_Headers/MKL25Z4.h:
+C:/Users/issac/Workspace\ Continental/Modulo\ 3/StateMachine/Continental/Project_Headers/MKL25Z4.h:
 
 C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/stdint.h:
 
@@ -56,15 +54,11 @@ C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_lib_ext1.h
 
 ../Sources/gsc_scheduler/periodic_tasks/periodic_tasks_modules.h:
 
-../Sources/gsc_scheduler/periodic_tasks/..\..\app\ADC.h:
-
 ../Sources/gsc_scheduler/periodic_tasks/..\..\app\GPIO.h:
 
 ../Sources/gsc_scheduler/periodic_tasks/..\..\app\Lamp_Control.h:
 
 ../Sources/gsc_scheduler/periodic_tasks/..\..\app\GPIO.h:
-
-../Sources/gsc_scheduler/periodic_tasks/..\..\app\ADC.h:
 
 ../Sources/gsc_scheduler/periodic_tasks/..\..\app\Read_Selector.h:
 
