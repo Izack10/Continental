@@ -86,7 +86,7 @@ PUBLIC_FCT void GPIO_Init(void)
 	PORTA_PCR4 = PORT_PCR_MUX(1);				//PIN A4 configured as GPIO
 	PORTA_PCR5 = PORT_PCR_MUX(1);				//PIN A5 configured as GPIO
 	
-	GPIOA_PDDR = 0x54;
+	GPIOA_PDDR = 0x36;
 }
 
 

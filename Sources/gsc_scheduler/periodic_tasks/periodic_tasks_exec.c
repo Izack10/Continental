@@ -31,11 +31,7 @@
 #endif
 #include "stdtypedef.h"
 
-/*
-T_UWORD ruw_LightIntensity = 0;
-T_UWORD ruw_LightPorcent = 0;
-T_UWORD ruw_SelectorState = 0;
-T_UWORD ruw_previusState = 0;*/
+
 
 /**************************************************************
  *  Name                 : periodic_tasks_exec_5tks
@@ -90,7 +86,8 @@ T_UWORD ruw_previusState = 0;*/
  **************************************************************/
  void periodic_tasks_exec_50tks(void)
  {
-	
+	 read_Input();	 
+	 SelectorButtonFunction();
  }
  
  /**************************************************************
@@ -104,7 +101,7 @@ T_UWORD ruw_previusState = 0;*/
  **************************************************************/
  void periodic_tasks_exec_100tks(void)
  { 
-
+	 
  }
  
  /**************************************************************
@@ -117,8 +114,8 @@ T_UWORD ruw_previusState = 0;*/
  *  Critical/explanation : no
  **************************************************************/
  void periodic_tasks_exec_500tks(void)
- {
-	 SelectorFunction();
+ {	 
+	 SelectorTimerFunction();
  }
  
  /**************************************************************
