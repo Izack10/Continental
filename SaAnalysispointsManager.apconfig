@@ -1,6 +1,10 @@
 <Analysispoints>
 	<Name>AnalysispointsManager</Name>
+<<<<<<< HEAD
 	<ProjectPath>C:/Users/issac/Workspace Continental/Modulo 3/StateMachine/Continental/SaAnalysispointsManager.apconfig</ProjectPath>
+=======
+	<ProjectPath>C:/Users/Jorge/workspace/prueba/Continental/SaAnalysispointsManager.apconfig</ProjectPath>
+>>>>>>> e8dbd8cbd1be2c5b0accda20ad0737f9cfc19445
 	<MaxNumberOfCores>1</MaxNumberOfCores>
 	<Comments>Analysispoints Manager</Comments>
 	<IgnoreAll>false</IgnoreAll>

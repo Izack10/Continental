@@ -29,7 +29,7 @@
 /* -------- */
 #include "stdtypedef.h"
 #include "GPIO.h"
-#include "ADC.h"
+
 
 /* Exported types and constants */
 /* ---------------------------- */

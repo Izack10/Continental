@@ -4,9 +4,9 @@ Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.o: \
  C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/common.prefix \
  C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_c_version.h \
  ../Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.h \
- C:/Users/Jorge/Desktop/Jor\ Workspaces/trunk/source/AutoLampsSCH/Project_Headers/stdtypedef.h \
- C:/Users/Jorge/Desktop/Jor\ Workspaces/trunk/source/AutoLampsSCH/Project_Headers/derivative.h \
- C:/Users/Jorge/Desktop/Jor\ Workspaces/trunk/source/AutoLampsSCH/Project_Headers/MKL25Z4.h \
+ C:/Users/Jorge/workspace/prueba/Continental/Project_Headers/stdtypedef.h \
+ C:/Users/Jorge/workspace/prueba/Continental/Project_Headers/derivative.h \
+ C:/Users/Jorge/workspace/prueba/Continental/Project_Headers/MKL25Z4.h \
  C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/stdint.h \
  C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/ansi_parms.h \
  C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewlGlobals.h \
@@ -26,11 +26,11 @@ C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_c_version.
 
 ../Sources/gsc_scheduler/gsc_sch_core/gsc_sch_core.h:
 
-C:/Users/Jorge/Desktop/Jor\ Workspaces/trunk/source/AutoLampsSCH/Project_Headers/stdtypedef.h:
+C:/Users/Jorge/workspace/prueba/Continental/Project_Headers/stdtypedef.h:
 
-C:/Users/Jorge/Desktop/Jor\ Workspaces/trunk/source/AutoLampsSCH/Project_Headers/derivative.h:
+C:/Users/Jorge/workspace/prueba/Continental/Project_Headers/derivative.h:
 
-C:/Users/Jorge/Desktop/Jor\ Workspaces/trunk/source/AutoLampsSCH/Project_Headers/MKL25Z4.h:
+C:/Users/Jorge/workspace/prueba/Continental/Project_Headers/MKL25Z4.h:
 
 C:/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/stdint.h:
 
